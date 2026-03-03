@@ -18,7 +18,7 @@
         <thead>
             <tr>
                 <th>No</th>
-                <th>Nama</th>
+                <th>Nama_guru</th>
                 <th>NIP</th>
                 <th>Mapel</th>
                 <th>No HP</th>
