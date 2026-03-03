@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\SiswaController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GuruController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,6 @@ Route::get('/', function () {
 });
 
 
+
+Route::resource('guru', GuruController::class);
 Route::resource('siswa', SiswaController::class);
